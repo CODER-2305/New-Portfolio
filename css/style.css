@@ -27,7 +27,6 @@ body{
 .header .logo{
     position: relative;
     font-weight: 700;
-    color: cornsilk;
     text-decoration: none;
     font-size: 2em;
     text-transform: none;
@@ -35,9 +34,13 @@ body{
     transition: 0.7s;
 
 }
-.logo_span{
-    color: red;
+.logo{
+    color: #00b4d8;
 }
+.logo_span{
+    color: #e63946;
+}
+
 header ul{
     position: relative;
     display: flex;
@@ -66,7 +69,7 @@ header ul{
     background: url(/img/rasm\ 1\ .webp);
     background-size:cover ;
 }
-header.sticky .logo,
+header.sticky,
 header.sticky ul li a{
     color: #000;
 
@@ -192,9 +195,7 @@ img{
     position: relative;
     background: #fff;
     max-width: 500px;
-}
-.galery_item .text .title{
-    color: #111;
+    border-radius: 10%;
 }
 .galery_item .text p{
     margin: 20px 0;
@@ -202,21 +203,135 @@ img{
 .galery_item .text a{
 text-decoration: none;
 display: inline-block;
-color: #111;
-border: 1px solid red;
 padding: 10px 20px ;
 -webkit-transition: all .5s ease;
 -o-transition: all .5s ease;
-transition: all .5s ease;
 }
-.galery_item .text a:hover{
-    background-color: #e85d04;
-    border-color: #e85d04;
+
+#html{
+    background: #fff1e6;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 10%;
+}
+.btn_html{
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+.btn_html:hover{
+    background: orange;
     color: #fff;
+}
+#css{
+    color: blue;
+    background: #c1d3fe;
+    border: 2px solid blue;
+    border-radius: 10%;
+}
+.btn_css{
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+.btn_css:hover{
+    background: blue;
+    color: #fff;
+}
+#bootsrap{
+    color: #6a4c93;
+    background: #b8c0ff;
+    border: 2px solid #6a4c93;
+    border-radius: 10%;
+}
+.btn_bootsrap{
+    color: #6a4c93;
+    border: 2px solid #6a4c93;
+    border-radius: 50%;
+}
+.btn_bootsrap:hover{
+    background: #6a4c93;
+    color: #fff;
+}
+#git{
+    color: #001233;
+    background: #d3d3d3;
+    border: 2px solid #001233;
+    border-radius: 10%;
+}
+.btn_git{
+    color: #001233;
+    border: 2px solid #001233;
+    border-radius: 50%;
+}
+.btn_git:hover{
+    background:#001233 ;
+    color: #fff;
+}
+#java{
+    color: yellow   ;
+    background: #a2d6f9;
+    border: 2px solid yellow;
+    border-radius: 10%;
+}
+.btn_java{
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+.btn_java:hover{
+    background: khaki;
+    color: #fff;
+}
+#gulp{
+    color: red;
+    background: #ffcad4;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+.btn_gulp{
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.btn_gulp:hover{
+    color: #fff;
+    background: red;
+}
+#sass{
+    color: #fff;
+    background: #b7e4c7;
+    border: 2px solid #007200;
+    border-radius: 10%;
+}
+.btn_sass{
+    color: #fff;
+    border: 2px solid #007200;
+    border-radius: 50%;
+}
+.btn_sass:hover{
+    color: #007200;
+    background: #fff;
+}
+#wp{
+    color: #9381ff;
+    background: #e6f2ff ;
+    border: 2px solid #9381ff;
+    border-radius: 10%;
+}
+.btn_wp{
+    color: #9381ff;
+    border: 2px solid #9381ff;
+    border-radius: 50%;
+}
+.btn_wp:hover{
+    color: #fff;
+    background: #9381ff;
 }
 #icon_html{
    font-size: 70px;
    color: orange;
+   
 }
 #icon_css{
    font-size: 70px;
@@ -240,7 +355,7 @@ transition: all .5s ease;
 }
 #icon_sass{
    font-size: 70px;
-   color: #dd2d4a;
+   color: #fff;
 }
 #icon_wp{
    font-size: 70px;
